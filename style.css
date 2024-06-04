@@ -66,6 +66,35 @@ a:hover {
   display: none;
 }
 
+.overlay {
+  /* Tambahkan gaya overlay di sini */
+}
+
+.overlay-menu {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.overlay-menu li {
+  margin-bottom: 1rem;
+}
+
+.overlay-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.overlay-menu a:hover {
+  color: grey;
+}
+
 .hamburger-menu {
   position: relative;
   display: inline-block;
@@ -78,6 +107,11 @@ a:hover {
   height: 24px;
   width: 30px;
   cursor: pointer;
+  transition: transform 0.3s ease; 
+}
+
+.hamburger-icon.open {
+  transform: scale(0.8); 
 }
 
 .hamburger-icon span {
