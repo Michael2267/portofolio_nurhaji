@@ -100,4 +100,11 @@
     .text-container {
       text-align: justify;
     }
+    #hamburger-menu{
+      display: none;
+    }
+
+    #menu-links.active{
+      display: block;
+    }
   }
